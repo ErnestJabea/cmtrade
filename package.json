@@ -1,14 +1,13 @@
 {
-  "name": "cemac-backend-drive",
+  "name": "cemac-trade-proxy",
   "version": "1.0.0",
-  "description": "API Proxy for Cemac Trade",
   "main": "proxy.js",
   "scripts": {
-    "start": "node proxy.js"  
+    "start": "node proxy.js"  // IMPORTANT : Assurez-vous que le nom du fichier correspond
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6",
-    "cors": "^2.8.5"
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "http-proxy-middleware": "^3.0.0" 
   }
 }
