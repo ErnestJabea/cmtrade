@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "proxy.js",
   "scripts": {
-    "start": "node proxy.js"  // IMPORTANT : Assurez-vous que le nom du fichier correspond
+    "start": "node proxy.js" 
   },
   "dependencies": {
     "express": "^4.19.2",
